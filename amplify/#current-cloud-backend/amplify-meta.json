@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-simplecamerasaveimag-dev-231703-authRole",
+			"UnauthRoleArn": "arn:aws:iam::605130232149:role/amplify-simplecamerasaveimag-dev-231703-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::605130232149:role/amplify-simplecamerasaveimag-dev-231703-authRole",
+			"Region": "ap-south-1",
+			"DeploymentBucketName": "amplify-simplecamerasaveimag-dev-231703-deployment",
+			"UnauthRoleName": "amplify-simplecamerasaveimag-dev-231703-unauthRole",
+			"StackName": "amplify-simplecamerasaveimag-dev-231703",
+			"StackId": "arn:aws:cloudformation:ap-south-1:605130232149:stack/amplify-simplecamerasaveimag-dev-231703/c50b29d0-9eaf-11ea-a1c3-0a95c9550e3e",
+			"AmplifyAppId": "d3du1pswoas6qz"
+		}
+	},
+	"auth": {
+		"simplecamerasaveimagef2bd308": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-simplecamerasaveimag-dev-231703-deployment/amplify-cfn-templates/auth/simplecamerasaveimagef2bd308-cloudformation-template.yml",
+				"logicalId": "authsimplecamerasaveimagef2bd308"
+			},
+			"lastPushTimeStamp": "2020-05-25T17:58:23.530Z",
+			"output": {
+				"AppClientSecret": "j1to7u4m52rm5emtitrktuqe81pqsp2dhj9orkd4n81mnerabc6",
+				"UserPoolId": "ap-south-1_ckOPOOZQc",
+				"AppClientIDWeb": "7nicun403o73jr8gppvhkfachb",
+				"AppClientID": "7jgac5c34pvm11q898t5pgft5r",
+				"IdentityPoolId": "ap-south-1:dc11a901-b61e-4243-86a4-7393abc7042f",
+				"IdentityPoolName": "simplecamerasaveimagef2bd308_identitypool_ef2bd308__dev",
+				"UserPoolName": "simplecamerasaveimagef2bd308_userpool_ef2bd308"
+			},
+			"lastPushDirHash": "DN180Ty/lj8khBEfNPkuyxPUr6Q="
+		}
+	},
+	"storage": {
+		"s392d35cba": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-simplecamerasaveimag-dev-231703-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+				"logicalId": "storages392d35cba"
+			},
+			"lastPushTimeStamp": "2020-05-25T17:58:23.530Z",
+			"output": {
+				"BucketName": "simplecameraapp231703-dev",
+				"Region": "ap-south-1"
+			},
+			"lastPushDirHash": "3FYyzlbWUFrBmCs1/BJtqw0fAbE="
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-simplecamerasaveimag-dev-231703-authRole",
+            "UnauthRoleArn": "arn:aws:iam::605130232149:role/amplify-simplecamerasaveimag-dev-231703-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::605130232149:role/amplify-simplecamerasaveimag-dev-231703-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-simplecamerasaveimag-dev-231703-deployment",
+            "UnauthRoleName": "amplify-simplecamerasaveimag-dev-231703-unauthRole",
+            "StackName": "amplify-simplecamerasaveimag-dev-231703",
+            "StackId": "arn:aws:cloudformation:ap-south-1:605130232149:stack/amplify-simplecamerasaveimag-dev-231703/c50b29d0-9eaf-11ea-a1c3-0a95c9550e3e",
+            "AmplifyAppId": "d3du1pswoas6qz"
+        },
+        "categories": {
+            "auth": {
+                "simplecamerasaveimagef2bd308": {}
+            }
+        }
+    }
+}

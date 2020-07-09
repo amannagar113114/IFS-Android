@@ -1,0 +1,13 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "storage": {
+        "plugins": {
+            "awsS3StoragePlugin": {
+                "bucket": "simplecameraapp231703-dev",
+                "region": "ap-south-1",
+                "defaultAccessLevel": "guest"
+            }
+        }
+    }
+}

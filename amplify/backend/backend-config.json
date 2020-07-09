@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"simplecamerasaveimagef2bd308": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s392d35cba": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
